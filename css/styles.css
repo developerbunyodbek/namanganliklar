@@ -526,9 +526,76 @@ ul {
 .footer-bottom-icon {
   width: 25px;
   height: 25px;
+  display: block;
 }
 
 .news-section-banner {
   width: 553px;
   height: 393px;
+}
+
+.left {
+  width: 696px;
+}
+
+.main-input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 18px 20px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.w50 {
+  width: 100%;
+  display: flex;
+}
+
+.w50 input {
+  width: 343px;
+}
+
+.w50 .contact-label:not(:last-child) {
+  margin-right: 10px;
+}
+
+.contact-textarea {
+  height: 180px;
+  resize: none;
+  margin-bottom: 0;
+}
+
+.right-news-title-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.right-news-title {
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-size: 20px;
+}
+
+.right-news-value {
+  font-size: 16px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  width: 494px;
+  border-radius: 10px;
+  background-color: #F6F6F6;
+  padding: 40px 25px;
+}
+
+.right-news-box {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d2d2d2;
 }
