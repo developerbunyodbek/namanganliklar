@@ -30,7 +30,7 @@ img {
 /* OUTLINE STYLES */
 *:focus {
   outline: 2px dashed #7296ec;
-  outline-offset: 3px;
+  outline-offset: 2px;
 }
 
 
