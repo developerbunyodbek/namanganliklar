@@ -142,6 +142,10 @@ img {
   border-radius: 60px;
   font-size: 14px;
   line-height: normal;
+  background-image: url(../img/icon-search.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 15px center;
 }
 
 
@@ -547,55 +551,106 @@ ul {
   margin-bottom: 10px;
 }
 
-.w50 {
-  width: 100%;
-  display: flex;
-}
-
-.w50 input {
-  width: 343px;
-}
-
-.w50 .contact-label:not(:last-child) {
-  margin-right: 10px;
-}
-
-.contact-textarea {
-  height: 180px;
-  resize: none;
-  margin-bottom: 0;
-}
-
-.right-news-title-link {
-  text-decoration: none;
-  color: #000;
-  font-weight: 500;
-}
-
-.right-news-title {
-  margin-top: 0;
-  margin-bottom: 7px;
-  font-size: 20px;
-}
-
-.right-news-value {
-  font-size: 16px;
-}
-
-.contact-content {
+/* FORM */
+.form-groups-wrapper {
   display: flex;
   justify-content: space-between;
 }
 
-.right {
-  width: 494px;
-  border-radius: 10px;
-  background-color: #F6F6F6;
-  padding: 40px 25px;
+.form-groups-wrapper:not(:last-child) {
+  margin-bottom: 10px;
 }
 
-.right-news-box {
+.form-group:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-groups-wrapper .form-group {
+  width: calc(50% - 5px);
+  margin-bottom: 0;
+}
+
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.form-field-textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+
+/* DEFINITIONS-CARD */
+.definitions-card {
+  padding: 20px 25px;
+  margin: 0;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  color: #000;
+}
+
+.definitions-card-item {
+  padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 20px;
+}
+
+.definitions-card-item:not(:last-child) {
   border-bottom: 1px solid #d2d2d2;
+}
+
+.definitions-card-title {
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.definitions-card-value {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.definitions-card-value a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* CONTACT-PAGE */
+.contact-page {
+  margin-bottom: 100px;
+}
+.contact-page-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #000;
+}
+
+.contact-page-content {
+  display: flex;
+}
+
+.contact-page-form {
+  display: flex;
+  flex-direction: column;
+  width: 696px;
+}
+
+.contact-page-form-submit {
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.contact-page-info {
+  width: 494px;
+  margin-left: 10px;
 }

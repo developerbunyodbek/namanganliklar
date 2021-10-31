@@ -68,51 +68,50 @@
   <!-- MAIN-CONTENT -->
   <main class="main-content">
     <div class="container">
-      <section class="news">
-        <div class="news-title">
-          <h2 class="news-heading">Напишите нам</h2>
-        </div>
-        <div class="contact-content">
-          <div class="left">
-            <form action="https://echo.htmlacademy.ru/" method="POST" class="contact-form">
-              <div class="w50">
-                <label for="name" class="contact-label">
-                  <input type="text" name="name" id="name" class="main-input" required placeholder="Имя">
-                </label>
-                <label for="tel" class="contact-label">
-                  <input type="tel" name="tel" id="tel" class="main-input" required placeholder="Номер телефона">
-                </label>
+      
+<div class="contact-page">
+        <h1 class="contact-page-heading">Напишите нам</h1>
+
+        <div class="contact-page-content">
+          <form class="contact-page-form form" action="https://echo.htmlacademy.ru" method="POST">
+            <div class="form-fields">
+              <div class="form-groups-wrapper">
+                <div class="form-group">
+                  <input class="form-field" type="text" name="name" placeholder="Имя" aria-label="Имя" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-field" type="tel" name="phone_number" placeholder="Номер телефона" aria-label="Номер телефона" required>
+                </div>
               </div>
-              <label for="mail" class="contact-label">
-                <input type="email" name="mail" id="mail" class="main-input" required placeholder="Электронная почта">
-              </label>
-              <label for="text" class="contact-label">
-                <textarea name="text" id="text" class="main-input contact-textarea" required placeholder="Текст"></textarea>
-              </label>
-            </form>
-          </div>
-          <div class="right">
-            <article class="right-news-item">
-              <h3 class="right-news-title">
-                <a href="#" class="right-news-title-link">Электронная почта</a>
-              </h3>
-              <span class="right-news-value">info@namanganliklar24.uz</span>
-            </article>
-            <article class="right-news-item">
-              <h3 class="right-news-title">
-                <a href="#" class="right-news-title-link">Номер телефона</a>
-              </h3>
-              <span class="right-news-value">+998 88 522-54-76</span>
-            </article>
-            <article class="right-news-item">
-              <h3 class="right-news-title">
-                <a href="#" class="right-news-title-link">Адрес</a>
-              </h3>
-              <span class="right-news-value">Ташкент, площадь Мустакиллик, 6</span>
-            </article>
+              <div class="form-group">
+                <input class="form-field" type="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-field form-field-textarea" name="message" placeholder="Текст" aria-label="Текст" required></textarea>
+              </div>
+            </div>
+            <button class="contact-page-form-submit button button-primary" type="submit">Отправить</button>
+          </form>
+
+          <div class="contact-page-info">
+            <ul class="contact-page-definitions-card definitions-card">
+              <li class="definitions-card-item">
+                <h3 class="definitions-card-title">Электронная почта</h3>
+                <span class="definitions-card-value"><a href="mailto:info@namanganliklar24.uz?subject=N24.uz%20saytidan%20xabar">info@namanganliklar24.uz</a></span>
+              </li>
+              <li class="definitions-card-item">
+                <h3 class="definitions-card-title">Номер телефона</h3>
+                <span class="definitions-card-value"><a href="tel:+998885225476">+998 88 522-54-76</a></span>
+              </li>
+              <li class="definitions-card-item">
+                <h3 class="definitions-card-title">Адрес</h3>
+                <span class="definitions-card-value">Ташкент, площадь Мустакиллик, 6</span>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
+      </div>
+
     </div>
   </main>
   
