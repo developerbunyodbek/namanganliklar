@@ -26,6 +26,17 @@ img {
   height: auto;
 }
 
+/* VISUALLY HIDDEN */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 
 /* OUTLINE STYLES */
 *:focus {
@@ -228,6 +239,7 @@ img {
 .main-content {
   flex-grow: 1;
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 
@@ -395,7 +407,7 @@ img {
   margin-bottom: 17px;
 }
 
-/* Right */ 
+/* Right */
 .right-news {
   max-width: 393px;
   width: 100%;
@@ -653,4 +665,53 @@ ul {
 .contact-page-info {
   width: 494px;
   margin-left: 10px;
+}
+
+/* ARTICLES */
+.articles-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 797px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.articles-content {
+  padding-bottom: 60px;
+}
+
+.right-content {
+  width: 393px;
+}
+
+.articles-title {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.articles-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  margin: 0;
+}
+
+.articles-text:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.articles-info {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.article-footer-content {
+  display: flex;
 }

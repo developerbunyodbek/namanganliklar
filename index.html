@@ -5,23 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Namanganliklar24</title>
+
+  <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="./css/styles.min.css">
 </head>
 <body>
-  
+
   <!-- SITE-HEADER -->
   <header class="site-header">
     <div class="site-header-top">
       <div class="site-header-top-container container">
-        
+
         <a class="site-header-logo" href="index.html">
           <img class="site-header-logo-img" src="img/logo-purple.svg" alt="N24 logo" width="264" height="28">
         </a>
-        
+
         <ul class="currency-rates">
           <li class="currency-rates-item">
             <b class="currency-rates-type">$</b>
@@ -32,20 +35,20 @@
             <span class="currency-rates-value">146.08</span>
           </li>
         </ul>
-        
+
         <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
           <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
         </form>
-        
+
         <div class="lang-toggle">
           <a class="lang-toggle-link lang-toggle-link-active" href="index.html">УЗ</a>
           <a class="lang-toggle-link" href="index.html/ru">РУ</a>
         </div>
-        
+
         <a class="button button-primary" href="contact.html" target="_blank">Войти</a>
       </div>
     </div>
-    
+
     <div class="container">
       <nav class="sitenav">
         <ul class="sitenav-list">
@@ -61,7 +64,7 @@
           <li class="sitenav-item"><a class="sitenav-link" href="news.html" target="_blank">Наука</a></li>
         </ul>
       </nav>
-      
+
       <!-- SITE-HEADER-BANNER -->
       <aside class="site-header-banner">
         <a class="site-header-banner-link" href="https://olcha.uz" target="_blank">
@@ -75,6 +78,7 @@
   <main class="main-content">
     <div class="container">
       <section class="top-news">
+        <h2 class="visually-hidden">Top News</h2>
         <div class="news-grid">
           <article class="news-grid-item article-card">
             <h3 class="article-card-title">
@@ -162,15 +166,16 @@
           </article>
         </div>
       </section>
-      
+
       <!-- NOTIFICATION-CTA -->
       <section class="notification-cta">
+        <h2 class="visually-hidden">Notification</h2>
         <div class="notification-cta-text">Хотите быть в курсе свежих новостей?
           <br>Включите уведомления!
         </div>
         <button class="button button-orange" type="button">Включить</button>
       </section>
-      
+
       <section class="news">
         <div class="news-title">
           <h2 class="news-heading">В мире</h2>
@@ -292,13 +297,13 @@
                 <img class="right-news-image" src="img/discount.jpg" alt="rek" width="393" height="338" srcset="img/discount.jpg 1x, img/discount@2x.jpg 2x">
               </a>
             </aside>
-            
+
           </div>
         </div>
       </section>
     </div>
   </main>
-  
+
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
@@ -346,7 +351,7 @@
         </div>
         <div class="footer-bottom">
           <span class="footer-bottom-text">
-            Наши 
+            Наши
             <br>социальные сети
           </span>
           <ul class="footer-bottom-list">
@@ -375,6 +380,6 @@
       </div>
     </div>
   </footer>
-  
+
 </body>
 </html>
